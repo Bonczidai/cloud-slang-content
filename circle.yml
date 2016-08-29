@@ -5,12 +5,12 @@
 #   The Apache License is available at
 #   http://www.apache.org/licenses/LICENSE-2.0
 #
-####################################################
+########################################################################################################
 
 general:
   artifacts:
     - "builder.log"
-    
+
 machine:
   environment:
     # "${CIRCLE_PR_NUMBER}" = "" denotes that the build is not part of a fork PR
